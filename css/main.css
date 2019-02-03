@@ -98,7 +98,22 @@ textarea {
    ========================================================================== */
 
 
+img {
+  width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    box-shadow: 0.5em 0.5em 0.7em #333;
+  z-index: 9999;
+}
 
+.giphy-embed {
+width:100%
+ position: absolute;
+  top: 0; 
+  left: 0;
+  z-index:0;
+}
 
 
 

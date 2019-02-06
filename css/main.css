@@ -98,22 +98,28 @@ textarea {
    ========================================================================== */
 
 
-img {
-  width:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    box-shadow: 0.5em 0.5em 0.7em #333;
-  z-index: 9999;
+.container {
+   margin:0 auto;
+   text-align:center;
+   top:0;
+   left:0;
+   position:relative;
 }
 
-.vid{
-  margin-top:300px;
-  width:100%;
- position: absolute;
-  z-index:0;
+.img{
+  position:relative; 
+  top:0; 
+  left:0; 
+  z-index:1;
 }
 
+.cross {
+  position:absolute; 
+  top:50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index:-1;
+}
 
 
 

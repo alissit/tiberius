@@ -122,10 +122,12 @@ textarea {
   width: 400px;
 }
 
-@media only screen and (min-width: 35em) {
+@media (min-width: 1281px) {
+  
     .cross {
       width: 500px;
     }
+  
 }
 
 

@@ -119,6 +119,13 @@ textarea {
   left: 50%; 
   transform: translate(-50%, -50%);
   z-index:-1;
+  width: 400px;
+}
+
+@media only screen and (min-width: 35em) {
+    .cross {
+      width: 500px;
+    }
 }
 
 

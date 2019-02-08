@@ -122,6 +122,14 @@ textarea {
   width: 400px;
 }
 
+@media (min-width: 1023px) {
+  
+    .cross {
+      width: 350px;
+    }
+  
+}
+
 @media (min-width: 1281px) {
   
     .cross {
